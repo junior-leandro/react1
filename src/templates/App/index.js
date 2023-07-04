@@ -1,6 +1,9 @@
-import { Card } from '../../components/Card';
 import './style.css';
 
 export function App() {
-  return  <Card />;
+  return (
+    <div className='div'>
+      <h1>Hello World!</h1>
+    </div>
+  );
 }
